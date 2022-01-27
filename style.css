@@ -3,15 +3,29 @@ body {
     font-family: arial;
     color: black
 }
-h1{
+h1 {
     color: grey;
     font-family:verdana;
 }
+fieldset {
+    width: 100%;
+    display: inline-block;
+    border: none;
+}
+
+fieldset label {
+    width: 100px;
+    display:inline-block;
+}
 .maindiv {
     background-color: white;
-    width: 300px;
+    width: 500px;
     padding: 20px;
     border-radius: 25px;
+    margin: 0 auto;
+}
+.content {
+    width: 350px;
     margin: 0 auto;
 }
 
