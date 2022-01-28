@@ -21,7 +21,7 @@ function compute()
         "If you deposit <span class=\"yellow\">" + principal + "</span><br/>" +
         "at an interest rate of <span class=\"yellow\">" + rate + "%</span>,<br/>" +
         "you will receive an amount of <span class=\"yellow\">" + interest + "</span><br/>" + 
-        "in the year <span class=\"yellow\">" + year + "</span>";
+        "in the year <span class=\"yellow\">" + year + ".</span>";
 }
 
 /**
